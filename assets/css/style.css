@@ -91,11 +91,9 @@ body, html  {
 /* HERO SECTION  */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/photo-1705260527801-0bfd739f8c57.avif");
-
+  margin-top: 50px;
   height: 754px;
   width: 100%;
-
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,11 +351,11 @@ color: #000000;
    .question-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 2fr; /* Increase the size of the bottom row */
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     background-color: #E1DCD5;
-    max-height: 399px;
+    max-height: 495px;
     }
  
    
@@ -384,10 +382,10 @@ color: #000000;
       margin-left: 131px;
      }
 
-     .qtn1{
+     .qtn1 h2{
       font-family: "Cormorant Garamond", serif;
       font-weight: normal;
-      letter-spacing: 0.30px;   
+      letter-spacing: 0.30px;
     }
 
      .qtn1 p{
@@ -402,13 +400,13 @@ color: #000000;
        margin-right: 20px;
       }
 
-      .qtn2 {
+      .qtn2 h2 {
         font-family: "Cormorant Garamond", serif;
         font-weight: normal;
         letter-spacing: 0.30px;
       }
 
-      .qtn2C p {
+      .qtn2 p {
         font-family: "Nunito Sans", sans-serif;
         font-weight: normal;    
         line-height: 1.8em;
